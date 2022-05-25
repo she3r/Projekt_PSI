@@ -6,7 +6,7 @@
 ### Temat: Klasyfikacja: Przewidywanie zawału u pacjenta
 ### Jezyk: Python
 
-## Po wstępnej kwalifikacji, wybrano modele do uczenia:
+## Po wstępnej kwalifikacji, wybrano modele do uczenia (accuracy):
 - MLPClassifier
 - SVC linear
 - SVC rbf
@@ -14,3 +14,8 @@
 - AdaBoost
 Każdy z nich wygenerował podobny, bardzo dobry wynik. 
 ### Najlepszy jednak uzyskał MLP Classifier: 0.95555 acc
+
+## Po wstępnej kwalifikacji, wybrano modele do uczenia (recall):
+- RandomTreeClassifier
+- KNN
+
