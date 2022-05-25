@@ -12,4 +12,5 @@
 - SVC rbf
 - Logistic Regression
 - AdaBoost
-Każdy z nich wygenerował podobny, bardzo dobry wynik. Nieco lepszy jednak uzyskał MLP Classifier: 0.95555 acc
+Każdy z nich wygenerował podobny, bardzo dobry wynik. 
+### Najlepszy jednak uzyskał MLP Classifier: 0.95555 acc
