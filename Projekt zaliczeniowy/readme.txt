@@ -18,5 +18,6 @@ Każdy z nich wygenerował podobny, bardzo dobry wynik.
 ## Po wstępnej kwalifikacji, wybrano modele do uczenia (recall):
 - RandomTreeClassifier
 - KNN
-Jest problem z dobrym wyszkoleniem pod recall. Modele nie wychodzą poza barierę 12%. Podejrzewam, że może chodzić o nierealistyczne dane do uczenia. 
+Jest problem z dobrym wyszkoleniem pod recall. Modele nie wychodzą poza barierę 12%. Podejrzewam, że może chodzić o nierealistyczne dane do uczenia. Dane były preprocesowane względem norm dla bmi i avg_glucose_level podlinkowanych w pracy, być może te normy nie były brane pod uwagę przy tworzeniu danych.
+
 ### Po gridowaniu najlepszy wynik uzyskał KNN
