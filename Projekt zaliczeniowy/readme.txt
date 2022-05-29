@@ -18,5 +18,5 @@ Każdy z nich wygenerował podobny, bardzo dobry wynik.
 ## Po wstępnej kwalifikacji, wybrano modele do uczenia (recall):
 - RandomTreeClassifier
 - KNN
-Jest problem z dobrym wyszkoleniem pod recall. Modele nie wychodzą poza barierę 10%. Podejrzewam, że może chodzić o nierealistyczne dane do uczenia. 
-## Po gridowaniu najlepszy wynik uzyskał RandomTreeClassifier
+Jest problem z dobrym wyszkoleniem pod recall. Modele nie wychodzą poza barierę 12%. Podejrzewam, że może chodzić o nierealistyczne dane do uczenia. 
+### Po gridowaniu najlepszy wynik uzyskał KNN
